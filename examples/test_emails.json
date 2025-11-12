@@ -1,0 +1,176 @@
+[
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "京东商城 <news@jd.com>",
+    "subject": "618大促来袭，全场5折起！",
+    "email_thread": "亲爱的用户，618年度大促正式开始！热门商品限时秒杀，满299减50，快来选购吧！"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "星巴克 <starbucks@email.starbucks.com>",
+    "subject": "新品上市：夏日特调咖啡",
+    "email_thread": "这个夏天，星巴克为您带来全新夏日特调系列。买一赠一优惠进行中！"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "彩票中心 <winner@lottery.com>",
+    "subject": "恭喜您中奖100万元！",
+    "email_thread": "尊敬的客户，您在我们举办的抽奖活动中获得一等奖，奖金100万元。请立即点击链接领取奖金。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "技术支持 <support@microsoft-security.com>",
+    "subject": "您的账户存在安全风险",
+    "email_thread": "检测到您的Microsoft账户在陌生设备登录，请立即验证您的身份以确保账户安全。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "王明 <wangming@company.com>",
+    "subject": "【请假通知】王明今日病假",
+    "email_thread": "各位同事，我今天因身体不适请病假一天，紧急事务请联系李经理。预计明天恢复正常工作。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "张华 <zhanghua@company.com>",
+    "subject": "年假申请通知 - 张华",
+    "email_thread": "团队好，我将于下周一到周三休年假，期间工作已交接给小李。有事请邮件联系，我会偶尔查看。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "DevOps系统 <devops@company.com>",
+    "subject": "【系统通知】生产环境部署完成 - v2.1.0",
+    "email_thread": "生产环境部署完成。版本：v2.1.0，部署时间：2025-11-15 02:00 UTC，变更内容：用户登录优化、性能提升。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "监控系统 <monitor@company.com>",
+    "subject": "【监控告警】数据库CPU使用率过高",
+    "email_thread": "检测到生产数据库CPU使用率持续超过85%，持续时间15分钟。系统已自动扩容，请相关团队关注。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "李雷 <lilei@company.com>",
+    "subject": "关于项目进度的疑问",
+    "email_thread": "Lizhi，你好！关于我们正在进行的A项目，我想了解下个阶段的开发计划和时间安排，你有什么建议吗？"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "韩梅梅 <hanmeimei@company.com>",
+    "subject": "技术方案选择咨询",
+    "email_thread": "Hi Lizhi，我们在B功能的技术选型上有些犹豫，是使用Redis还是MongoDB更合适？想听听你的意见。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "项目经理 <pm@company.com>",
+    "subject": "季度规划会议邀请 - 请确认参与",
+    "email_thread": "邀请您参加本周五上午10点的季度规划会议。会议将讨论下季度产品路线图和资源分配，请确认是否能够参加。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "客户成功部 <cs@company.com>",
+    "subject": "客户需求评审会 - 需要您的技术输入",
+    "email_thread": "您好，我们计划在下周三下午2点召开客户需求评审会，需要您的技术评估意见。请回复确认参会时间是否合适。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "HR部门 <hr@company.com>",
+    "subject": "年度培训计划确认",
+    "email_thread": "请确认您本年度的培训计划安排，如有调整请及时回复。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "拼多多 <promo@pdd.com>",
+    "subject": "限时优惠：今日下单立减100元！",
+    "email_thread": "尊敬的用户，本周精选活动火热开启，全场低至3折，优惠仅限今日！"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "unknown sender <lottery@winner123.cn>",
+    "subject": "恭喜您获得500万元奖金！请立即领取！",
+    "email_thread": "您的邮箱被抽中为幸运用户，请填写信息领取大奖，否则视为放弃。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "系统通知 <alert@security-mail.com>",
+    "subject": "账户安全提示：请验证您的登录信息",
+    "email_thread": "我们检测到您账户存在异常活动，请点击下方链接验证身份以确保账户安全。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "人事部 <hr@company.com>",
+    "subject": "【请假通知】王涛将于下周休年假",
+    "email_thread": "大家好，王涛将于11月18日至11月22日休年假，其间相关事务请联系张倩代为处理。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "设计部 <design@company.com>",
+    "subject": "【请假通知】林晨明日请事假一天",
+    "email_thread": "林晨将于11月13日请假一天，项目文件已同步至团队共享盘。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "张伟 <zhangwei@company.com>",
+    "subject": "关于新API接口的参数问题咨询",
+    "email_thread": "你好Lizhi，我在调用user/profile接口时遇到参数错误，请问是否有最新的文档说明？"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "李婷 <liting@company.com>",
+    "subject": "数据库迁移计划讨论",
+    "email_thread": "你好，想和你确认下本周数据库迁移的具体时间和风险评估，有空可以聊一下吗？"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "会议系统 <meeting@company.com>",
+    "subject": "会议邀请：研发部周例会",
+    "email_thread": "您被邀请参加研发部周例会，时间：11月14日 10:00，地点：A3会议室，请准时参加。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "行政部 <admin@company.com>",
+    "subject": "公司年度总结大会邀请",
+    "email_thread": "请参加2025年度总结大会，时间：11月28日 14:00，地点：大会议厅。"
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "GitHub <noreply@github.com>",
+    "subject": "Verify your GitHub account",
+    "email_thread": "Hi Lizhi, please verify your email address to activate your GitHub account. Verification code: 473829."
+  },
+  {
+    "to": "Lizhi <lizhi@company.com>",
+    "author": "微信团队 <security@weixin.com>",
+    "subject": "您的登录验证码",
+    "email_thread": "您的微信验证码是 562913，请在10分钟内输入完成验证。"
+  },
+  {
+    "to": "Lizhi lizhi@company.com",
+    "author": "天猫商城 promotion@tmall.com",
+    "subject": "双11预售开启，抢先加购！",
+    "email_thread": "尊敬的用户，双11预售火热进行中！精选商品预付定金翻倍，更多优惠等你来！"
+  },
+  {
+    "to": "Lizhi lizhi@company.com",
+    "author": "中奖通知 winner@luckydraw.com",
+    "subject": "恭喜您中奖100万，请点击领取！",
+    "email_thread": "亲爱的用户，您在我们的抽奖活动中中了大奖！请回复此邮件并提供您的银行信息以领取奖金。"
+  },
+  {
+    "to": "Lizhi lizhi@company.com",
+    "author": "人力资源部 hr@company.com",
+    "subject": "关于张三的休假安排通知",
+    "email_thread": "各位同事，张三将于2023年10月1日至10月7日休假，期间工作由李四代理。如有急事，请联系李四。"
+  },
+  {
+    "to": "Lizhi lizhi@company.com",
+    "author": "王五 wangwu@company.com",
+    "subject": "关于项目进度的疑问",
+    "email_thread": "Hi Lizhi，我对当前项目的进度有些疑问，能否安排时间讨论一下？谢谢！"
+  },
+  {
+    "to": "Lizhi lizhi@company.com",
+    "author": "会议系统 meeting@company.com",
+    "subject": "邀请参加：季度复盘会议",
+    "email_thread": "您好，您被邀请参加季度复盘会议。时间：2023年11月10日 14:00。地点：会议室A。请准时参加。"
+  }
+]
