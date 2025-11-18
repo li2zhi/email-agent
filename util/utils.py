@@ -48,7 +48,7 @@ def triage_interrupt(interrupt):
         "3": "respond"
     }
 
-    print(f"\n{interrupt['action']}\n{interrupt['description']}")
+    print(f"\n{interrupt['action']}")
     opt = input("您的意见是：1-需要进行通知 2-忽略该邮件 3-需要回复该邮件：\n")
     result = {"type": res_map[opt]}
 

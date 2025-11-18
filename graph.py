@@ -1,23 +1,22 @@
 import uuid
 
-from IPython.display import Image, display
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.constants import END, START
 from langgraph.graph import StateGraph
 from langgraph.store.memory import InMemoryStore
 from langgraph.types import Command
 
+from template.data_generate import TestDataManager
 from template.nodes import email_triage, triage_interrupt_handler, route_triage_decision, route_next_step, llm_call, \
     tool_execute
 from template.protocol import State, StateInput, INTERRUPT_TAGS
-from template.data_generate import TestDataManager
 from util.memory_manager import display_memory_content
 
 overall_workflow = (
     StateGraph(State, input=StateInput)
     .add_node("triage_router", email_triage)
     .add_node("triage_interrupt_handler", triage_interrupt_handler)
-    .add_node("llm_call", llm_call)
+    .add_node("email_response", llm_call)
     .add_node("tool_execute", tool_execute)
     .add_edge(START, "triage_router")
     .add_edge("triage_router", "triage_interrupt_handler")
@@ -25,12 +24,12 @@ overall_workflow = (
         "triage_interrupt_handler",
         route_triage_decision,
         {
-            "llm_call": "llm_call",
+            "email_response": "email_response",
             "end": END
         }
     )
     .add_conditional_edges(
-        "llm_call",
+        "email_response",
         route_next_step,
         {
             "tool_execute": "tool_execute",
@@ -41,7 +40,7 @@ overall_workflow = (
         "tool_execute",
         route_next_step,
         {
-            "llm_call": "llm_call",
+            "email_response": "email_response",
             END: END
         }
     )
@@ -51,7 +50,6 @@ checkpointer = MemorySaver()
 store = InMemoryStore()
 graph = overall_workflow.compile(checkpointer=checkpointer, store=store)
 
-# display(Image(graph.get_graph().draw_mermaid_png()))
 png_data = graph.get_graph().draw_mermaid_png()
 with open('graph.png', 'wb') as f:
     f.write(png_data)
